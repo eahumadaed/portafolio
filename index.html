@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta
+    name="description"
+    content="Portafolio de Edinson Ahumada, desarrollador full stack y de automatizacion con foco en Android, backend y productos digitales."
+  >
+  <title>Edinson Ahumada | Portafolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;700&display=swap"
+    rel="stylesheet"
+  >
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="#inicio" aria-label="Ir al inicio">
+        <span class="brand-mark">EA</span>
+        <span class="brand-copy">
+          <strong>Edinson Ahumada</strong>
+          <span>Android, backend y automatizacion</span>
+        </span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        Menu
+      </button>
+
+      <nav id="site-nav" class="site-nav" aria-label="Principal">
+        <a href="#sobre-mi">Sobre mi</a>
+        <a href="#stack">Stack</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio">
+        <div class="hero-copy" data-reveal>
+          <p class="eyebrow">Portafolio profesional</p>
+          <h1>
+            Desarrollo productos utiles,
+            <span>apps Android y automatizaciones</span>
+            pensadas para resolver problemas reales.
+          </h1>
+          <p class="hero-lead">
+            Soy Edinson Ahumada, desarrollador full stack en Chile. Combino Kotlin, Java,
+            Python, PHP y bases de datos para construir soluciones tecnicas claras, mantenibles
+            y listas para evolucionar.
+          </p>
+
+          <div class="hero-actions">
+            <a class="button button-primary" href="#proyectos">Ver proyectos</a>
+            <a class="button button-secondary" href="https://github.com/eahumadaed" target="_blank" rel="noreferrer">
+              Ver GitHub
+            </a>
+          </div>
+
+          <div class="hero-metrics">
+            <article class="metric-card">
+              <span class="metric-value">68+</span>
+              <span class="metric-label">Repos publicos disponibles</span>
+            </article>
+            <article class="metric-card">
+              <span class="metric-value">Android</span>
+              <span class="metric-label">Apps nativas con Java y Kotlin</span>
+            </article>
+            <article class="metric-card">
+              <span class="metric-value">Data + API</span>
+              <span class="metric-label">Integraciones, scraping y automatizacion</span>
+            </article>
+          </div>
+        </div>
+
+        <aside class="profile-panel" data-reveal>
+          <div class="profile-photo-wrap">
+            <img src="assets/images/avatar.jpg" alt="Foto de perfil de Edinson Ahumada" class="profile-photo">
+          </div>
+
+          <div class="profile-block">
+            <p class="profile-label">Perfil publico</p>
+            <h2>Edinson Ahumada</h2>
+            <p>
+              Desarrollador full stack y de automatizacion. Android, Python, PHP, C/C++/C#,
+              MySQL, MariaDB, MongoDB y SQLite.
+            </p>
+          </div>
+
+          <ul class="profile-points">
+            <li><strong>Empresa:</strong> Lagserv</li>
+            <li><strong>Ubicacion:</strong> Chile</li>
+            <li><strong>Sitio:</strong> <a href="https://lagserv.com" target="_blank" rel="noreferrer">lagserv.com</a></li>
+            <li><strong>GitHub:</strong> <a href="https://github.com/eahumadaed" target="_blank" rel="noreferrer">@eahumadaed</a></li>
+          </ul>
+        </aside>
+      </section>
+
+      <section class="section about-section" id="sobre-mi">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">Sobre mi</p>
+          <h2>Perfil tecnico con foco en entrega, claridad y resultados.</h2>
+        </div>
+
+        <div class="about-grid">
+          <article class="panel" data-reveal>
+            <p>
+              Trabajo en productos donde el codigo no solo tiene que funcionar: tambien debe ser
+              entendible, facil de mantener y util para quien lo usa. Me muevo con soltura entre
+              interfaces Android, servicios backend, automatizaciones y manejo de datos.
+            </p>
+            <p>
+              En mis proyectos conviven integraciones REST, persistencia local, pruebas, despliegue
+              y preocupacion real por la experiencia final. Me interesa construir herramientas que
+              ahorren tiempo, reduzcan friccion y se puedan operar con confianza.
+            </p>
+          </article>
+
+          <article class="panel accent-panel" data-reveal>
+            <h3>Lo que mas desarrollo hoy</h3>
+            <div class="tag-cloud">
+              <span>Kotlin</span>
+              <span>Java</span>
+              <span>Android Studio</span>
+              <span>Python</span>
+              <span>PHP</span>
+              <span>SQLite</span>
+              <span>MySQL</span>
+              <span>MongoDB</span>
+              <span>REST APIs</span>
+              <span>Automatizacion</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section stack-section" id="stack">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">Stack</p>
+          <h2>Herramientas con las que convierto ideas en productos funcionales.</h2>
+        </div>
+
+        <div class="stack-grid">
+          <article class="stack-card" data-reveal>
+            <h3>Frontend y apps</h3>
+            <p>Android nativo con Kotlin y Java, interfaces responsivas y flujo de usuario cuidado.</p>
+          </article>
+          <article class="stack-card" data-reveal>
+            <h3>Backend e integraciones</h3>
+            <p>APIs REST, procesamiento de datos, automatizaciones y servicios conectados a fuentes externas.</p>
+          </article>
+          <article class="stack-card" data-reveal>
+            <h3>Persistencia</h3>
+            <p>SQLite, Room, MySQL, MariaDB y MongoDB para cache, historial, reportes y modelos de negocio.</p>
+          </article>
+          <article class="stack-card" data-reveal>
+            <h3>Calidad y entrega</h3>
+            <p>Pruebas, estructura mantenible, despliegue en GitHub y proyectos preparados para evolucionar.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section projects-section" id="proyectos">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">Proyectos destacados</p>
+          <h2>Una muestra de repos publicos con imagenes reales tomadas desde mis desarrollos.</h2>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card" data-reveal>
+            <img src="assets/images/projects/wallet-pulse.png" alt="Captura del proyecto Wallet Pulse">
+            <div class="project-copy">
+              <div class="project-tags">
+                <span>Kotlin</span>
+                <span>Room</span>
+                <span>Android</span>
+              </div>
+              <h3>Wallet Pulse</h3>
+              <p>Registro de compra y venta de dolares con historial persistente, resumen financiero y UI operativa.</p>
+              <div class="project-links">
+                <a href="https://github.com/eahumadaed/01-acceso-a-datos-en-android" target="_blank" rel="noreferrer">Ver repositorio</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-reveal>
+            <img src="assets/images/projects/poke-dex-now.png" alt="Captura del proyecto Poke Dex Now">
+            <div class="project-copy">
+              <div class="project-tags">
+                <span>Retrofit</span>
+                <span>Picasso</span>
+                <span>RecyclerView</span>
+              </div>
+              <h3>Poke Dex Now</h3>
+              <p>Consumo de API REST para buscar Pokemon, mostrar su imagen y mantener resultados recientes en una sola vista.</p>
+              <div class="project-links">
+                <a href="https://github.com/eahumadaed/02-consumo-de-apis-rest-en-android" target="_blank" rel="noreferrer">Ver repositorio</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-reveal>
+            <img src="assets/images/projects/user-lab.png" alt="Captura del proyecto User Lab">
+            <div class="project-copy">
+              <div class="project-tags">
+                <span>Testing</span>
+                <span>Room</span>
+                <span>MockWebServer</span>
+              </div>
+              <h3>User Lab</h3>
+              <p>Sincronizacion de usuarios con cache local y pruebas unitarias sobre la capa de repositorio.</p>
+              <div class="project-links">
+                <a href="https://github.com/eahumadaed/03-testing-y-android" target="_blank" rel="noreferrer">Ver repositorio</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-reveal>
+            <img src="assets/images/projects/gallery-atlas.png" alt="Captura del proyecto Gallery Atlas">
+            <div class="project-copy">
+              <div class="project-tags">
+                <span>MVVM</span>
+                <span>Navigation</span>
+                <span>POST</span>
+              </div>
+              <h3>Gallery Atlas</h3>
+              <p>Proyecto Android final con flujo de bienvenida, listado, detalle y formulario de contacto conectado a servicios remotos.</p>
+              <div class="project-links">
+                <a href="https://github.com/eahumadaed/04-evaluacion-proyecto-final" target="_blank" rel="noreferrer">Ver repositorio</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card" data-reveal>
+            <img src="assets/images/projects/zoologico-app.png" alt="Captura del proyecto Zoologico App">
+            <div class="project-copy">
+              <div class="project-tags">
+                <span>Offline</span>
+                <span>Retrofit</span>
+                <span>Intents</span>
+              </div>
+              <h3>Zoologico App</h3>
+              <p>Catalogo de animales con cache local, detalle enriquecido y accion directa para contacto por correo.</p>
+              <div class="project-links">
+                <a href="https://github.com/eahumadaed/05-evaluacion-final" target="_blank" rel="noreferrer">Ver repositorio</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card project-card-text" data-reveal>
+            <div class="project-copy">
+              <div class="project-tags">
+                <span>Open source</span>
+                <span>Automation</span>
+                <span>Utilities</span>
+              </div>
+              <h3>Mas trabajo publico en GitHub</h3>
+              <p>
+                Ademas de Android, mantengo repos sobre automatizacion, herramientas y servicios como
+                Accessibility Inspector Service, ScreenshotTile, APIs, Flask y otras soluciones productivas.
+              </p>
+              <div class="project-links">
+                <a href="https://github.com/eahumadaed?tab=repositories" target="_blank" rel="noreferrer">Explorar repositorios</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section workflow-section">
+        <div class="section-heading" data-reveal>
+          <p class="eyebrow">Forma de trabajo</p>
+          <h2>De la idea al despliegue, con foco tecnico y mirada de producto.</h2>
+        </div>
+
+        <div class="workflow-grid">
+          <article class="workflow-card" data-reveal>
+            <span>01</span>
+            <h3>Entender el problema</h3>
+            <p>Traduzco necesidades reales en flujos, modulos y decisiones de implementacion concretas.</p>
+          </article>
+          <article class="workflow-card" data-reveal>
+            <span>02</span>
+            <h3>Construir con criterio</h3>
+            <p>Prioridad en arquitectura simple, integraciones correctas, persistencia y experiencia usable.</p>
+          </article>
+          <article class="workflow-card" data-reveal>
+            <span>03</span>
+            <h3>Validar y publicar</h3>
+            <p>Pruebas, ajustes, evidencia visual y despliegue para que el proyecto quede realmente presentable.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contacto">
+        <div class="contact-panel" data-reveal>
+          <div>
+            <p class="eyebrow">Contacto</p>
+            <h2>Si quieres revisar mas trabajo o conversar sobre un proyecto, aqui estoy.</h2>
+            <p>
+              Mi perfil publico concentra repos, experimentos y desarrollos listos para revisar.
+              Tambien puedes visitar mi sitio y conocer mas de mi trabajo actual.
+            </p>
+          </div>
+
+          <div class="contact-actions">
+            <a class="button button-primary" href="https://github.com/eahumadaed" target="_blank" rel="noreferrer">
+              Abrir GitHub
+            </a>
+            <a class="button button-secondary" href="https://lagserv.com" target="_blank" rel="noreferrer">
+              Visitar Lagserv
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>Edinson Ahumada <span id="current-year"></span> | Portafolio publicado con GitHub Pages.</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
